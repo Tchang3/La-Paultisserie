@@ -1,0 +1,45 @@
+
+<html>
+<head>
+	<title> Game </title>
+  <meta name="viewport" content="width=device-width">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body id="game">
+	<nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn" id="barre">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label for="check" class="checkbtn" id="croix">
+          <i class="fas fa-times"></i>
+      </label>
+      <label class="resaux" id="youtube">
+       <i class="fab fa-youtube-square"></i>
+      </label>
+      <label class="resaux" id="insta">
+        <i class="fab fa-instagram-square"></i>
+      </label>
+      <label class="resaux" id="twitter">
+        <i class="fab fa-twitter-square"></i>
+      </label>  
+
+      <label class="logoo">Paul's Quest</label>
+      <ul>
+          <li><a class="active" data-text="Accueil" href="#">Accueil</a></li>
+          <li><a class="produit" data-text="Pâtisserie" href="#">Nos produits</a></li>
+          <li><a class="qsn" data-text="L'équipe" href="#">Qui-sommes nous?</a></li>
+          <li><a class="avdj" data-text="Paul'Quest" href="gamev2.html">A vous de jouer</a></li>
+          <li><a class="contact" data-text="Contact" href="#">Contactez-nous</a></li>
+      </ul>
+    </nav>
+
+	<h1 id="gameTitle"> Paul's Quest </h1>
+	<canvas height="600" width="800" id="gameCanvas"></canvas>
+	<script src="gameFiles/action.js" type="text/javascript"></script>
+	<script src="gameFiles/control.js" type="text/javascript"></script>
+
+</body>
+</html>
