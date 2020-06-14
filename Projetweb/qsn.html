@@ -1,0 +1,210 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Qui sommes nous?</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="projetimage/logo.png">
+    <style>
+      body, html {
+        height: 100%;
+        margin: 0;
+        font: 400 15px/1.8 "Lato", sans-serif;
+        color: #777;
+      }
+
+      .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+        position: relative;
+        opacity: 1;
+        filter: brightness(90%);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+
+      }
+      .bgimg-1 {
+        background-image: url("projetimage/equipe.jpg");
+        min-height: 100%;
+      }
+
+      .bgimg-2 {
+        background-image: url("projetimage/Tom.jpg");
+        min-height: 400px;
+      }
+
+      .bgimg-3 {
+        background-image: url("projetimage/Vincent.jpg");
+        min-height: 400px;
+      }
+
+      .bgimg-4 {
+        background-image: url("projetimage/Paul.jpg");
+        min-height: 400px;
+      }
+      .caption {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        color: #000;
+      }
+
+      .caption span.border {
+        background-color: #111;
+        color: #fff;
+        padding: 18px;
+        font-size: 25px;
+        letter-spacing: 10px;
+      }
+
+      h3 {
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        font: 20px "Lato", sans-serif;
+        color: #111;
+      }
+
+
+      @media only screen and (max-device-width: 1024px) {
+        .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+          background-attachment: scroll;
+        }
+      }
+    </style>
+  </head>
+
+<body>
+<nav class="navigateur" id="navaccueil">
+      <input type="checkbox" id="check">
+      <label for="check" class="menubouton" id="barre">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label for="check" class="menubouton" id="croix">
+          <i class="fas fa-times"></i>
+      </label>
+
+      <a href="https://www.youtube.com/?hl=fr&gl=FR">
+        <label class="resaux" id="youtube">
+          <i class="fab fa-youtube-square"></i>
+        </label>
+      </a>
+      <a href="https://www.instagram.com/?hl=fr">
+        <label class="resaux" id="insta">
+          <i class="fab fa-instagram-square"></i>
+        </label>
+      </a>
+      <a href="https://twitter.com/explore">
+        <label class="resaux" id="twitter">
+          <i class="fab fa-twitter-square"></i>
+        </label>
+      </a>
+
+      <label class="logoo">La Paultisserie</label>
+      <ul>
+          <li><a class="index" data-text="Accueil" href="index.html">Accueil</a></li>
+          <li><a class="produit" data-text="Pâtisserie" href="collection.html">Nos produits</a></li>
+          <li><a class="qsn" data-text="L'équipe" href="qsn.html">Qui-sommes nous?</a></li>
+          <li><a class="avdj" data-text="Paul'sQuest" href="gamev2.html">A vous de jouer</a></li>
+          <li><a class="contact" data-text="Contact" href="contact.html">Contactez-nous</a></li>
+      </ul>
+    </nav>
+
+<div class="bgimg-1">
+  <div class="caption">
+  <span class="border">QUI SOMMES-NOUS?</span>
+  </div>
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: center;">
+  <h3 style="text-align:center; padding-bottom: 10px;">Présentation de l'équipe</h3>
+  <p>Vous voici, <b> cher clients </b>, devant l'équipe composé de <b>trois grands</b> cuisiniers, qui sans eux, <b> Paultisserie </b> n'aurait jamais pu exister...</p>
+</div>
+
+<div class="bgimg-2">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"><b>Tom CHANG</b></span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: center;">
+  <p>Chef étoilé et célèbre auteur de la recette Paul's Quest grâce à sa maîtrise en JavaScript. Il a donc revisité la partie "A nous de jouer" pour délivrer une expérience inégalée encore aujourd’hui. </p>
+  </div>
+</div>
+
+<div class="bgimg-3">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"> <b>Vincent LY</b></span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: center;">
+  <p>Elu meilleur artisan de France dans la catégorie pâtisserie, Vincent a donné la ligne artistique à la Paultisserie à travers la page d'accueil, le menu ainsi que les différentes pages sur le thème des quatres saisons.</p>
+  </div>
+</div>
+
+<div class="bgimg-4">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"><b>Paul NOE</b></span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: center;">
+  <p>Ce grand talent à lui tout seul, il a remporté le Bocuse d'Or en 2019 et ne sesse de révolutionner le monde de la cuisine. Il est à la base de la section "Qui-sommes nous?"" et la section "Contact". Son restaurant à Paris est la preuve de son succès et la Paultiserie est la preuve de son progrès en CSS et HTM. </p>
+  </div>
+</div>
+
+<div class="bgimg-1">
+  <div class="caption">
+  <span class="border">À très vite à la Paultisserie!</span>
+  </div>
+</div>
+<footer> 
+  <div class="footer">
+    <div class="col">
+      <h1>Horraires</h1>
+      <ul>
+        <li>Ouvert du Lundi au Samedi : </li>
+        <li> De 8h à 21h</li>
+        <li>Ouvert le Dimanche : </li>
+        <li> De 9h à 12h30</li>
+        <li>20h30 : dernière livraison</li>
+      </ul>
+    </div>
+    <div class="col">
+      <h1>Nous Situer</h1>
+      <ul>
+        <li>30- 32 Avenue de la République</li>
+        <li>94800 </li>
+        <li>Villejuif</li>
+        <li>Métro Villejuif-Arago</li>
+        <li>Ligne 7</li>
+      </ul>
+    </div>
+    <div class="col">
+      <h1>Contact</h1>
+      <ul>
+        <li>tom.chang@efrei.net</li>
+        <li>vincent.ly@efrei.net</li>
+        <li>paul.noe@efrei.net</li>
+        <li>reservation@paulticerise.fr</li>
+      </ul>
+    </div>
+    <div class="col social">
+      <h1>Social</h1>
+      <ul>
+        <li><img src="https://svgshare.com/i/M2g.svg" style="width: 64px;" onclick='location.href="https://fr-fr.facebook.com/"'></li>
+        <li><img src="https://svgshare.com/i/M19.svg" style="width: 64px;" onclick='location.href="https://twitter.com/explore"'></li>
+        <li><img src="https://svgshare.com/i/Dpb.svg" style="width: 64px;" onclick='location.href="https://www.instagram.com/?hl=fr"'></li>
+      </ul>
+    </div>
+  </div>
+<footer>
+</body>
+</html>

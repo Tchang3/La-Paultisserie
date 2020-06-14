@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Collection - La Paultisserie</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="projetimage/logo.png">
+  </head>
+  <body>
+    <nav class="navigateur" id="navaccueil">
+      <input type="checkbox" id="check">
+      <label for="check" class="menubouton" id="barre">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label for="check" class="menubouton" id="croix">
+          <i class="fas fa-times"></i>
+      </label>
+
+      <a href="https://www.youtube.com/?hl=fr&gl=FR">
+        <label class="resaux" id="youtube">
+          <i class="fab fa-youtube-square"></i>
+        </label>
+      </a>
+      <a href="https://www.instagram.com/?hl=fr">
+        <label class="resaux" id="insta">
+          <i class="fab fa-instagram-square"></i>
+        </label>
+      </a>
+      <a href="https://twitter.com/explore">
+        <label class="resaux" id="twitter">
+          <i class="fab fa-twitter-square"></i>
+        </label>
+      </a>
+
+      <label class="logoo">La Paultisserie</label>
+      <ul>
+          <li><a class="active" data-text="Accueil" href="index.html">Accueil</a></li>
+          <li><a class="produit" data-text="Pâtisserie" href="collection.html">Nos produits</a></li>
+          <li><a class="qsn" data-text="L'équipe" href="qsn.html">Qui-sommes nous?</a></li>
+          <li><a class="avdj" data-text="Paul'Quest" href="gamev2.html">A vous de jouer</a></li>
+          <li><a class="contact" data-text="Contact" href="contact.html">Contactez-nous</a></li>
+      </ul>
+    </nav>
+    <section class="accueilfond">
+      <div class="container">
+        <div class="vbar" style="right:50%"></div>
+        <div class="vbar" style="right:100%"></div>
+        <div class="vbar" style="right:75%"></div>
+        <div class="vbar" style="right:25%"></div>
+        <div id="imgOne" class="imgCol" onclick="location.href = 'collectionprintemps.html';">
+          <p> Printemps </p>
+          <img src="projetimage/collectionprintemps.jpg">
+        </div>
+        <div id="imgTwo" class="imgCol" onclick="location.href = 'collectionete.html';">
+          <p> Eté </p>
+          <img src="projetimage/collectionete.jpg">
+        </div>
+        <div id="imgThree" class="imgCol" onclick="location.href = 'collectionautomne.html';">
+          <p> Automne </p>
+          <img src="projetimage/collectionautomne.jpg">
+        </div>
+        <div id="imgFour" class="imgCol" onclick="location.href = 'collectionhiver.html';">
+          <p> Hiver </p>
+          <img src="projetimage/collectionhiver.jpg">
+        </div>
+      </div>
+    </section>
+
+  </body>
+</html>
